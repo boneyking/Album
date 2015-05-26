@@ -1,0 +1,27 @@
+Album
+	#id
+	nombre
+	descripcion
+	usuario_id
+	
+	"Un Album pertenece a un Usuario."
+	"Un Album tiene muchas fotos."
+	
+Foto
+	#id
+	nombre
+	descripcion
+	ruta
+	album_id
+	
+	"Una Foto pertenece a un Album."
+	
+Usuario
+	#id
+	nombre
+	email
+	password
+	pregunta
+	respuesta
+
+	"Un usuario poseerá muchos Álbumes."

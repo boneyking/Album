@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Enfocalia
+        psr4_prefix: Enfocalia
+        src_path: app
